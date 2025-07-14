@@ -11,10 +11,14 @@ main()
 
     if(num>0)
     {
-        cout << "number is positive" << num << endl;
+        cout <<"number is positive"<< num << endl;
     }
-    else 
+    else if(num<0) 
     {
         cout << "number is Negative" << num << endl;
+    }
+    else
+    {
+        cout << "number is Zero" << endl;
     }
 }
